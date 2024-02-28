@@ -9,8 +9,9 @@ public class Test3 {
 		System.out.println("점수를 입력하시오.");
 		int jumsu=sc.nextInt();
 		String res=null;
-		//if(jumsu>=60) res="합격";
-		//else res="불합격";
+		if(jumsu>=60) res="합격";
+		else res="불합격";
 		System.out.println(res);
+		sc.close();
 	}
 }
